@@ -21,6 +21,7 @@
 		3ADC5C8D199D94D600D4C6B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADC5C6F199D94D500D4C6B8 /* UIKit.framework */; };
 		3ADC5C95199D94D600D4C6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ADC5C93199D94D600D4C6B8 /* InfoPlist.strings */; };
 		3ADC5C97199D94D600D4C6B8 /* RHWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADC5C96199D94D600D4C6B8 /* RHWebViewTests.m */; };
+		3ADC5CA1199D9B0600D4C6B8 /* LocalPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 3ADC5CA0199D9B0600D4C6B8 /* LocalPage.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3ADC5C92199D94D600D4C6B8 /* RHWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHWebViewTests-Info.plist"; sourceTree = "<group>"; };
 		3ADC5C94199D94D600D4C6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ADC5C96199D94D600D4C6B8 /* RHWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHWebViewTests.m; sourceTree = "<group>"; };
+		3ADC5CA0199D9B0600D4C6B8 /* LocalPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LocalPage.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				3ADC5C7D199D94D500D4C6B8 /* Main.storyboard */,
 				3ADC5C80199D94D500D4C6B8 /* RHViewController.h */,
 				3ADC5C81199D94D500D4C6B8 /* RHViewController.m */,
+				3ADC5CA0199D9B0600D4C6B8 /* LocalPage.html */,
 				3ADC5C83199D94D600D4C6B8 /* Images.xcassets */,
 				3ADC5C72199D94D500D4C6B8 /* Supporting Files */,
 			);
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ADC5C84199D94D600D4C6B8 /* Images.xcassets in Resources */,
+				3ADC5CA1199D9B0600D4C6B8 /* LocalPage.html in Resources */,
 				3ADC5C76199D94D500D4C6B8 /* InfoPlist.strings in Resources */,
 				3ADC5C7F199D94D500D4C6B8 /* Main.storyboard in Resources */,
 			);
@@ -456,6 +460,7 @@
 				3ADC5C9C199D94D600D4C6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ADC5C9D199D94D600D4C6B8 /* Build configuration list for PBXNativeTarget "RHWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				3ADC5C9F199D94D600D4C6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
